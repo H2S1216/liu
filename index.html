@@ -1,5 +1,5 @@
 <html><head>
-	<title>2025年报考硕士学位研究生成绩通知单</title>
+	<title>硕士研究生成绩查询</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
      <link rel="icon" sizes="any" mask="" href="/favicon.ico">
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -8,17 +8,28 @@
      
 	 <link rel="stylesheet" href="/resource/libs/pintuer/pintuer.css?12">
     <link rel="stylesheet" href="/resource/css/style.css">
-    <!--[if lt IE 9]><script r='m'>document.createElement("section")</script><![endif]--><script src="/resource/js/jquery-1.4.4.min.js"></script>
-    <script src="/resource/js/jquery.jqprint-0.3.js"></script>
+    <!--[if lt IE 9]><script r='m'>document.createElement("section")</script><![endif]--><script src="/resource/libs/pintuer/jquery.js"></script>
+    <script src="/resource/libs/pintuer/pintuer.js"></script>
+    <script src="/resource/libs/respond.min.js"></script>
 	
 <style>
-	.login-box2 {  background: #fff;  width: 600px;  border-radius: 6px;  overflow: hidden;  margin-right: 80px; margin-top: 30px;margin: 0 auto;}
-	   @media(max-width:1200px){
-	    .login-box2{ margin-right: 0;}
-		}
-		@media(max-width:760px){
-		    .login-box2{ width: 100%; margin: 0 auto; ;}
-		}
+
+	
+	
+	.login-box2 {  background: #fff;  width: 420px;  border-radius: 6px;  overflow: hidden;   margin: 0 auto;}
+	.login-box2 button {
+    	width: 100%;
+    	margin-top: 10px;
+	}
+	@media(max-width:1200px){
+    .login-box2{ margin-right: 0;}
+	}
+	@media(max-width:760px){
+	    .login-box2{ width: 100%; margin: 0 auto; ;}
+	}
+	#errorInfo{
+		color: red;
+	}
 </style><style data-id="immersive-translate-input-injected-css">.immersive-translate-input {
   position: absolute;
   top: 0;
@@ -414,105 +425,55 @@
 
 
 <body>
+	 		
+            	
+		
         <div class="container">
-            <div class="login-box2" style="" id="printCj">
+            <div class="login-box2" style="">
             	<div class="login-title"><img src="/resource/images/logo-name.png" alt="" style="width: 220px;height: 60px"></div>
-                <div class="login-title"> 2025年报考硕士学位研究生成绩通知单</div>
-                <p>&nbsp;</p>
-                	 <p>&nbsp;</p>
-                <div class="line" style="">
-                	 <table cellspacing="0" border="1" class="abc" style="width: 98%;border-collapse:collapse;">
-                	 	<tbody><tr>
-                	 		<td style="font-weight:bold;border:1px solid black;text-align: center;">准考证号</td>
-                	 		<td style="border:1px solid black;text-align: center;">102935210411584</td>
-                	 		<td style="font-weight:bold;border:1px solid black;text-align: center;">姓名</td>
-                	 		<td style="border:1px solid black;text-align: center;">刘孜钦</td>
-                	 	</tr>
-                	 	<tr>
-                	 		<td colspan="2" style="font-weight:bold;border:1px solid black;text-align: center;">报考专业</td>
-                	 		
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">
-                	 	
-                	 		
-                	 		
-                                		
-                                		
-                                			085404&nbsp;(专业学位)计算机技术
-                                		
-                                	
-                                	</td>
-                	 	</tr>
-                	 	<tr>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">101 思想政治理论</td>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">
-							
-								
-								
-								
-								
-									63
-								
-							
-						</td>
-                	 	</tr>
-                	 	<tr>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">204 英语（二）</td>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">
-							
-								
-								
-								
-								
-									62
-								
-							
-						</td>
-                	 	</tr>
-                	 	<tr>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">302 数学（二）</td>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">
-							
-								
-								
-								
-								
-									112
-								
-							
-						</td>
-                	 	</tr>
-                	 	<tr>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">811 数据结构</td>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">
-							
-								
-								
-								
-								
-									106
-								
-							
-						</td>
-                	 	</tr>
-                	 	
-                	 	<tr>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">总分</td>
-                	 		<td colspan="2" style="border:1px solid black;text-align: center;">343</td>
-                	 	</tr>
-                	 	
-	                	 	
-                	 	
-                	 </tbody></table>
-                </div>
+                <div class="login-title"> 2025年硕士研究生招生考试<br>初试成绩查询</div>
+                <form action="/sscjcx/28198B369067E88DAB9FEFE85484DBF4" method="post" class="form" id="formId">
+                    
+                    <div class="form-group">
+                        <div class="field field-icon">
+                            <span class="input-name">准考证号</span>
+                            <input hidden="true" name="nd" id="nd" value="2025">
+                            <input type="text" class="input" style="" name="username" id="username" value="" placeholder="准考证号">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="field field-icon">
+                            <span class="input-name">证件号码</span>
+                            <input type="password" class="input" style="" name="password" id="password" value="" placeholder="有效居民身份证号码">
+                        </div>
+                    </div>
+                     <div id="bmxz">
+	                    <div class="login-remarks" style="">
+		                    <p id="hintMsg1" class="desC" val="1">证件号码为有效居民身份证号码，居民身份证为18位数字（最后一位为X），港澳台身份证、护照按证件号码填写。</p>
+		                    <p></p>
+	               		 </div>
+               		 <div>
+               		 </div>
+               		 &nbsp;
+               		 </div>
+                    <div class="form-group">
+                        <div class="field field-icon">
+                            <input type="text" class="input" name="validateCode" id="validateCode" placeholder="输入验证码">
+                            <span class="input-name">验证码</span>
+                            <a class="input-code" href="#">
+                                <img id="imageID" alt="看不清,点击刷新" width="87" height="28" style="padding-left: 20px;" onclick="getImageCode()" src="/captcha/imageCode">
+                            </a>
+                        </div>
+                    </div>
+                     <div class="form-group" id="errorInfo" style="display: none;">
+                    	 
+                    </div>
+                    <div class="form-group">
+                        <button class="button bg-sub" type="button" id="loginIt">查询</button>
+                    </div>
+                </form>
             </div>
     </div>
-    
-    <div class="login-box2">
-    <div class="login-title">
-    	 <button onclick="to_print()" class="button bg-sub">打印成绩单</button>
-             </div>
-     </div>        
-     <div class="login-box2">
     
 
 <div class="footer">
@@ -522,30 +483,59 @@
     <span></span>
     <span></span>
 </div>
-    </div>
     <script type="text/javascript">
-   
+    /*使用enter登录  */
+    $(document).keydown(function (event) {
+    	if (event.keyCode == 13) {
+	    	$("#loginIt").click();
+	    	}
+    	});
+    $("#loginIt").click(function(){
+			if(Trim($("#username").val())==''){
+				$("#errorInfo").html('考生编号不能为空');
+				$("#errorInfo").css('display','');
+				$("#username").focus();
+				return;
+			}
+			if(Trim($("#password").val())==''){
+				$("#errorInfo").html('证件号码不能为空');
+				$("#errorInfo").css('display','');
+				$("#password").focus();
+				return;
+			}
+			$("#formId").submit();
+		});
     
-    function to_print(){
-    	if(browserRedirect()){
-    		alert('暂不支持移动端打印，请访问电脑端进行打印！');
-    		return;
-    	}
-    	$("#printCj").jqprint();
-    }
+    
+    $(function(){
+    });
+    function Trim(str)
+	 { 
+		if(str!=null&&str!=''){
+	  		return str.replace(/(^\s*)|(\s*$)/g, "");
+		}else{
+			return '';
+		}
+	}
     
     
-    function browserRedirect() {
-    	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-    		return true;
-    	}
-        return false;
-    }
     
+    
+    function getImageCode() {
+		var imageID = document.getElementById("imageID");
+		imageID.src = "/captcha/imageCode?curDate="
+				+ (new Date()).getTime();
+		arriveTime = new Date();
+	}
+    
+    
+
     
     jQuery(function($) {
-       			
-       		});
+    	if(Trim($("#errorInfo").html())!=''){
+				$("#errorInfo").css('display','')
+			}
+      });
    		
     </script>
 
